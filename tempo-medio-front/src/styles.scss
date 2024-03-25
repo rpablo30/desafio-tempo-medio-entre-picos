@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/theming";
+@include mat-core();
+
+$custom-primary: mat-palette($mat-blue);
+$custom-secondary: mat-palette($mat-indigo, A200, A400, 700);
+$custom-warn: mat-palette($mat-red);
+
+$custom-theme: mat-light-theme($custom-primary, $custom-secondary, $custom-warn);
+
+@include angular-material-theme($custom-theme);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* styles.css */
+.container {
+  height: 100vh;
+  /* Define a altura da container para ocupar toda a tela verticalmente */
+}
+
+.content {
+  height: 100%;
+  /* Define a altura da região de conteúdo para ocupar todo o espaço disponível */
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+.chart-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chart{
+  width: 40%;
+  margin: 10px;
+}
+.chart-mini{
+  width: 30%;
+  margin: 10px;
+}
+.chart-large{
+  width: 90%;
+  margin: 10px;
+}
