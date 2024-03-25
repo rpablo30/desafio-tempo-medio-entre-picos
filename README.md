@@ -37,5 +37,8 @@ Após iniciar o servidor, você poderá acessar os seguintes endpoints:
 Frontend
 Além disso, para visualizar a interface de usuário, é necessário rodar o frontend disponível no seguinte repositório: desafio-tempo-medio-front.
 
+**link do FRONTEND : 
+https://github.com/rpablo30/desafio-tempo-medio-entre-picos/tree/main/tempo-medio-front**
+
 **Observação do Desafio**
 Este desafio de programação tem dificuldade média e tem como objetivo incentivar o raciocínio lógico e algorítmico. Para mais informações sobre o desafio original, consulte aqui https://github.com/norelod/desafio-tempo-medio-entre-picos/tree/main.
