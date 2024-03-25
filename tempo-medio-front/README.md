@@ -18,20 +18,18 @@ Instalação e Execução
 
 Clone este repositório para o seu ambiente local usando o seguinte comando:
 
-bash
+
 git clone https://github.com/seu-usuario/desafio-tempo-medio-front.git
 Navegue até o diretório do projeto:
 
-bash
+
 cd desafio-tempo-medio-front
 Instale as dependências do projeto:
 
-bash
-npm install
+
 Execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-bash
-npm start
+
 O servidor de desenvolvimento será iniciado e você poderá acessar a interface de usuário em http://localhost:4200.
 
 Sobre o Desafio
