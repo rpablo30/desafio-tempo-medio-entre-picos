@@ -1,6 +1,4 @@
 
-Entendi. Aqui está a versão atualizada do README, de acordo com as suas especificações:
-
 Desafio Tempo Médio Entre Picos - Backend
 Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado aqui.
 
