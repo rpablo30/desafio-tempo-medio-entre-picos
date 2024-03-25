@@ -1,6 +1,7 @@
 **Desafio Tempo Médio Entre Picos - Backend**
 
-Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado [aqui](https://github.com/rpablo30/desafio-tempo-medio-entre-picos/edit/master/).
+Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado aqui : 
+https://github.com/norelod/desafio-tempo-medio-entre-picos/tree/main
 
 O backend é responsável por processar os dados do sensor, identificar os picos verdadeiros e calcular o tempo médio entre eles.
 
