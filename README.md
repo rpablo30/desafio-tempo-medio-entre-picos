@@ -1,22 +1,22 @@
+**Desafio Tempo Médio Entre Picos - Backend**
 
-Desafio Tempo Médio Entre Picos - Backend
-Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado aqui.
+**Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado [aqui](link_do_desafio_original).**
 
-O backend é responsável por processar os dados do sensor, identificar os picos verdadeiros e calcular o tempo médio entre eles.
+**O backend é responsável por processar os dados do sensor, identificar os picos verdadeiros e calcular o tempo médio entre eles.**
 
-Pré-requisitos
+**Pré-requisitos**
 Antes de iniciar, verifique se você possui os seguintes pré-requisitos:
 
-Java Development Kit (JDK) - Versão 17 ou superior
-Maven - Ferramenta de gerenciamento de dependências e construção de projetos para Java
-Configuração
-Certifique-se de ter o Java Development Kit (JDK) 17 e o Maven instalados em sua máquina.
+- **Java Development Kit (JDK)** - Versão 17 ou superior
+- **Maven** - Ferramenta de gerenciamento de dependências e construção de projetos para Java
 
-Instalação e Execução
+**Configuração**
+Certifique-se de ter o **Java Development Kit (JDK) 17** e o **Maven** instalados em sua máquina.
+
+**Instalação e Execução**
 Clone este repositório para o seu ambiente local usando o seguinte comando:
 
-bash
-Copy code
+```bash
 git clone https://github.com/seu-usuario/desafio-tempo-medio-back.git
 Navegue até o diretório do projeto:
 
