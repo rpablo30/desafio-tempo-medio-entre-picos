@@ -43,9 +43,9 @@ public class DadosSensorController {
         int somaDosQuatroPrimeirosPicos = dadoSensorService.calcularSomaDosQuatroPrimeirosPicos();
         double mediaDosQuatroPrimeirosPicos = dadoSensorService.calcularMediaDosQuatroPrimeirosPicos();
 
-        infoPicos.put("Tempo médio entre os picos", tempoMedioEntrePicos);
         infoPicos.put("Soma dos picos", somaDosQuatroPrimeirosPicos);
         infoPicos.put("Média dos picos", mediaDosQuatroPrimeirosPicos);
+        infoPicos.put("Tempo médio entre os picos", tempoMedioEntrePicos);
 
         List<Integer> temposDosPicos = new ArrayList<>();
         List<Integer> valoresDosPicos = dadoSensorService.obterValoresDosPicos();
@@ -56,12 +56,10 @@ public class DadosSensorController {
             }
         }
 
-        List<Integer> diferencaDeTemposEntrePicos = new ArrayList<>();
         for (int i = 0; i < temposDosPicos.size() - 1; i++) {
-            diferencaDeTemposEntrePicos.add(Math.abs(temposDosPicos.get(i) - temposDosPicos.get(i + 1)));
+            int difTemp = Math.abs(temposDosPicos.get(i) - temposDosPicos.get(i + 1));
+            infoPicos.put("difTempPico" + (i + 1) + "Pico" + (i + 2), difTemp);
         }
-
-        infoPicos.put("Diferença de tempo entre os picos", diferencaDeTemposEntrePicos);
 
         return ResponseEntity.ok(infoPicos);
     }
