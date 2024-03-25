@@ -36,4 +36,4 @@ Frontend
 Além disso, para visualizar a interface de usuário, é necessário rodar o frontend disponível no seguinte repositório: desafio-tempo-medio-front.
 
 Sobre o Desafio
-Este desafio de programação tem dificuldade média e tem como objetivo incentivar o raciocínio lógico e algorítmico. Para mais informações sobre o desafio original, consulte aqui.
+Este desafio de programação tem dificuldade média e tem como objetivo incentivar o raciocínio lógico e algorítmico. Para mais informações sobre o desafio original, consulte aqui https://github.com/norelod/desafio-tempo-medio-entre-picos/tree/main.
