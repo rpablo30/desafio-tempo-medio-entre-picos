@@ -1,64 +1,45 @@
-# desafio-tempo-medio-entre-picos 
-Desafio de programação - Tempo Médio Entre Picos
 
-# Dificuldade do desafio
-Este desafio tem dificuldade média
+Entendi. Aqui está a versão atualizada do README, de acordo com as suas especificações:
 
-# Introdução
-Bem-vindo ao desafio TMEP: desafio Tempo Médio Entre Picos!
+Desafio Tempo Médio Entre Picos - Backend
+Este é o backend do projeto desenvolvido em resposta ao desafio Tempo Médio Entre Picos, proposto como parte do processo seletivo da Improvess Informática. O desafio original pode ser encontrado aqui.
 
-O desafio TMEP é um desafio de programação que tem como objetivo incentivar o raciocínio lógico e algoritmico!
+O backend é responsável por processar os dados do sensor, identificar os picos verdadeiros e calcular o tempo médio entre eles.
 
-# URL da vaga
-https://br.indeed.com/job/pessoa-apaixonada-por-programar-computadores-junior-f3fb46c5b03bd952
+Pré-requisitos
+Antes de iniciar, verifique se você possui os seguintes pré-requisitos:
 
-# Regras
+Java Development Kit (JDK) - Versão 17 ou superior
+Maven - Ferramenta de gerenciamento de dependências e construção de projetos para Java
+Configuração
+Certifique-se de ter o Java Development Kit (JDK) 17 e o Maven instalados em sua máquina.
 
-- Fork esse repositório.
-- Implemente uma solução para o desafio usando qualquer linguagem de programação que você quiser! (veja mais detalhes abaixo)
-- Descreva a sua solução em um arquivo chamado ```SOLUTION.md``` usando o markdown do github (veja mais detalhes abaixo)
-- Commit/Push sua solução mais o arquivo ```SOLUTION.md``` para o **SEU FORK**!
-- Envie o link do seu fork para o nosso time de recrutamento
-- Aguarde nosso feedback!
+Instalação e Execução
+Clone este repositório para o seu ambiente local usando o seguinte comando:
 
-# Descreva a sua solução
-No arquivo ```SOLUTION.md``` você deve explicar:
+bash
+Copy code
+git clone https://github.com/seu-usuario/desafio-tempo-medio-back.git
+Navegue até o diretório do projeto:
 
-- Como você implementou a sua solução (suas ideias e estratégias)
-- Como você gerou os dados para validar a sua solução
-- Exemplos de entradas para testar a sua implementação
-- Quais as maiores dificuldades ou dúvidas que você encontrou quando estava desenvolvendo a sua solução
-- Como executar a sua solução (compilar? Instalar algum interpretador?)
+bash
+Copy code
+cd desafio-tempo-medio-back
+Execute o seguinte comando para compilar e executar o projeto:
 
-# Desafio
-Considere a seguinte imagem:
+bash
+Copy code
+mvn spring-boot:run
+O servidor será iniciado na porta padrão 8080.
 
-![image](https://github.com/norelod/desafio-tempo-medio/assets/37966960/971a85af-ba38-4524-bda7-2a0744f4f7cf)
+Endpoints
+Após iniciar o servidor, você poderá acessar os seguintes endpoints:
 
-Essa imagem representa a leitura de um sensor que está mendindo um processo que oscila continuamente para cima e para baixo.
+/tempo-medio-entre-picos: Retorna os pontos do gráfico, representando o tempo médio entre picos.
+/valores-de-pico: Retorna os valores dos picos detectados.
+/todosPicos: Retorna informações detalhadas sobre os picos detectados, incluindo o tempo médio entre eles.
+Frontend
+Além disso, para visualizar a interface de usuário, é necessário rodar o frontend disponível no seguinte repositório: desafio-tempo-medio-front.
 
-Todo sensor tem ruído. No caso desse sensor, o ruído gera alguns "picos" falsos aleatórios principalmente quando o valor está decaindo.
-
-Nessa imagem, podemos ver 4 "picos" verdadeiros. Os picos verdadeiros são os pontos máximios locais destacados em vermelho na imagem abaixo:
-
-![image](https://github.com/norelod/desafio-tempo-medio/assets/37966960/152617d7-b002-4ed8-a005-20109be4934c)
-
-Note que os pontos de cor azul não são picos verdadeiros.
-
-A diferença entre um ponto do gráfico e o ponto seguinte é sempre de 1 segundo. O valor mínimo de um ponto (eixo y) é zero e o máximo é 100. O valor mínimo de um pico é 50.
-
-Calcule o **tempo médio entre os picos** dado um intervalo contendo dados. Por exemplo, na última imagem, o tempo médio será: 
-
-TMEP = (18 + 15 + 14) / 3 = 15
-
-De forma simples, o tempo médio entre picos será a **soma de tempo entre os picos dividido pela quantidade de picos menos 1**.
-
-Escreva a sua solução para gerar o tempo médio usando minutos e segundos. Por exemplo: 11:32, 08:43, 13:02, 00:35, etc.
-
-# Dicas
-
-- Use boas práticas de algoritmos
-- A sua descição em ```SOLUTION.md``` é tão importante quanto o seu código
-- Use boas práticas de programação, como métodos e variáveis com nomes intuitivos
-- Não perca muito tempo com formatação do markdown. Ai menos é mais.
-- Sentiu falta de alguma coisa? Seja criativo!
+Sobre o Desafio
+Este desafio de programação tem dificuldade média e tem como objetivo incentivar o raciocínio lógico e algorítmico. Para mais informações sobre o desafio original, consulte aqui.
