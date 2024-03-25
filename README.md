@@ -11,20 +11,18 @@ Antes de iniciar, verifique se você possui os seguintes pré-requisitos:
 - **Maven** - Ferramenta de gerenciamento de dependências e construção de projetos para Java
 
 **Configuração**
-Certifique-se de ter o **Java Development Kit (JDK) 17** e o **Maven** instalados em sua máquina.
+Certifique-se de ter o **Java Development Kit (JDK) 17** e o **Maven** instalados na máquina.
 
 **Instalação e Execução**
 Clone este repositório para o seu ambiente local usando o seguinte comando:
 
-```bash
-git clone https://github.com/seu-usuario/desafio-tempo-medio-back.git
+**git clone https://github.com/seu-usuario/desafio-tempo-medio-back.git**
 Navegue até o diretório do projeto:
 
-bash
-cd desafio-tempo-medio-back
+**cd desafio-tempo-medio-back**
 Execute o seguinte comando para compilar e executar o projeto:
 
-bash
+**rodar a aplicação**
 mvn spring-boot:run
 O servidor será iniciado na porta padrão 8080.
 
