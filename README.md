@@ -21,12 +21,10 @@ git clone https://github.com/seu-usuario/desafio-tempo-medio-back.git
 Navegue até o diretório do projeto:
 
 bash
-Copy code
 cd desafio-tempo-medio-back
 Execute o seguinte comando para compilar e executar o projeto:
 
 bash
-Copy code
 mvn spring-boot:run
 O servidor será iniciado na porta padrão 8080.
 
