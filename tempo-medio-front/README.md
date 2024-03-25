@@ -19,7 +19,8 @@ Instalação e Execução
 
 **Clone este repositório para o seu ambiente local usando o seguinte comando:**
 
-git clone https://github.com/seu-usuario/desafio-tempo-medio-front.git
+git clone https://github.com/rpablo30/desafio-tempo-medio-entre-picos.git
+
 Navegue até o diretório do projeto:
 
 cd desafio-tempo-medio-front
