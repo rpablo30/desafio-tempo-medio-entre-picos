@@ -33,6 +33,6 @@ Compile e execute o backend utilizando o Maven.
 Inicie o servidor do frontend e abra a interface de usuário em um navegador web.
 Interaja com a interface para visualizar os dados do sensor e calcular o Tempo Médio Entre Picos.
 
-Para acessar o código do backend, visite [este link](  https://github.com/seu-usuario/desafio-tempo-medio-back  ).
+Para acessar o código do backend, visite [este link](  https://github.com/rpablo30/desafio-tempo-medio-entre-picos/tree/master  ).
 
-Para acessar o código do frontend, visite [este link](  https://github.com/seu-usuario/desafio-tempo-medio-front  ).
+Para acessar o código do frontend, visite [este link](  https://github.com/rpablo30/desafio-tempo-medio-entre-picos/tree/main/tempo-medio-front ).
