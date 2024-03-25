@@ -106,6 +106,26 @@ public class DadoSensorService {
         return (double) soma / 4.0;
     }
 
+    public List<Integer> calcularDiferencasDeTempoEntrePicos() {
+        List<Integer> temposDosPicos = new ArrayList<>();
+        List<Integer> valoresDosPicos = obterValoresDosPicos();
+
+        for (DadoSensor dado : dadosDoSensor) {
+            if (valoresDosPicos.contains(dado.getValor())) {
+                temposDosPicos.add(dado.getSegundos());
+            }
+        }
+
+        List<Integer> diferencaDeTemposEntrePicos = new ArrayList<>();
+        for (int i = 0; i < temposDosPicos.size() - 1; i++) {
+            diferencaDeTemposEntrePicos.add(Math.abs(temposDosPicos.get(i) - temposDosPicos.get(i + 1)));
+        }
+
+        return diferencaDeTemposEntrePicos;
+    }
+
+
+
     public Map<String, Object> obterInfoDosPicos() {
         calcularEMarcarTempoMedioEntrePicos();
 
@@ -137,6 +157,7 @@ public class DadoSensorService {
 
         infoPicos.put("Soma dos picos", somaDosQuatroPrimeirosPicos);
         infoPicos.put("Média dos picos", mediaDosQuatroPrimeirosPicos);
+
 
         return infoPicos;
     }
